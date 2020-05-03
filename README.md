@@ -10,6 +10,10 @@ The repo contains jupyter notebook code which can be directly used.
 
 It also contains pretrained models.
 
+Model description:-
+
+We are using CNN + dense layer architecture to predict the position of the facial keypoints.
+
 
 
 
