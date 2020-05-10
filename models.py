@@ -31,9 +31,9 @@ class Net(nn.Module):
         self.fc1_drop = nn.Dropout(p=0.2)
         self.fc2 = nn.Linear(1000, 1000)
         self.fc2_drop = nn.Dropout(p=0.2)
-        self.fc3 = nn.Linear(1000, 500)
+        self.fc3 = nn.Linear(1000, 1000)
         self.fc3_drop = nn.Dropout(p=0.2)
-        self.fc4 = nn.Linear(500, 136)
+        self.fc4 = nn.Linear(1000, 136)
         ## Note that among the layers to add, consider including:
         # maxpooling layers, multiple conv layers, fully-connected layers, and other layers (such as dropout or batch normalization) to avoid overfitting
         
